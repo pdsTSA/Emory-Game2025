@@ -2063,7 +2063,6 @@ Transform:
   - {fileID: 1529430381}
   - {fileID: 1119297584}
   - {fileID: 213465810}
-  - {fileID: 1485263665}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880016890
@@ -2730,7 +2729,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 852270870}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8725519739064309805, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_Layer
@@ -2738,7 +2737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4999999
+      value: 1.5000005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalScale.y
@@ -2746,19 +2745,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.4999999
+      value: 1.5000005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 325.4579
+      value: 19.328094
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 79.88606
+      value: 1.7699966
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 326.46576
+      value: 12.63205
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5029,11 +5028,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 852270870}
   m_LocalEulerAnglesHint: {x: -92.523, y: -402.892, z: 445.885}
---- !u!4 &1485263665 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2d226e59912d0014fbf2646ed5c4b916, type: 3}
-  m_PrefabInstance: {fileID: 985451713}
-  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1485263667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7171,3 +7165,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 852270870}
   - {fileID: 1381889096}
+  - {fileID: 985451713}
