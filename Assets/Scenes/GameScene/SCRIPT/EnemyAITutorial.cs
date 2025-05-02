@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyAiTutorial : MonoBehaviour
+public class EnemyAITutorial : MonoBehaviour
 {
     public NavMeshAgent agent;
 
@@ -86,6 +86,7 @@ public class EnemyAiTutorial : MonoBehaviour
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            player.GetComponent<PlayerStats>().TakeDamage(5);
             ///End of attack code
 
             alreadyAttacked = true;
@@ -97,7 +98,7 @@ public class EnemyAiTutorial : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
 
